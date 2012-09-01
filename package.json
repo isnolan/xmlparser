@@ -1,17 +1,25 @@
 {
-  "name": "XML2JSON",
+  "name": "xmlparser",
+  "version": "0.0.0",
   "description": "an xml2json package for nodejs",
-  "keywords": ['xml2json','XML2JSON','xml','json','2json','xml To json'],
-  "main":"./lib/xml2json.js",
-  "maintainers": [{
-    "name":"yhostc",
-	"email":"<yhostc@gmail.com>"
-  }],
-  "contributors": [{
-    "name":"yhostc",
-	"email":"<yhostc@gmail.com>"
-  }],
-  "bugs":"https://github.com/yhostc/XML2JSON/issues",
-  "repositories":"https://github.com/yhostc/XML2JSON.git",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yhostc/XML2JSON.git"
+  },
+  "keywords": [
+    "XML2JSON",
+    "xml2json",
+    "xml",
+    "xmlparser",
+    "json"
+  ],
+  "author": "yhostc",
   "license": "BSD"
 }
