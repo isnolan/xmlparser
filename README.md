@@ -1,7 +1,7 @@
-XML2JSON
+XMLPARSER
 ========
 
-XML2JSON 是一个基于NodeJs的封装组件，主要是用来解决XML转JSON格式的问题.
+xmlparser 是一个基于NodeJs的封装组件，主要是用来解决XML转JSON格式的问题.
 
 
 ### 使用方法：  
@@ -12,7 +12,7 @@ $ npm install xmlparser
 
 使用：  
 <pre>
-var xml2json = require("XML2JSON");
+var xml2json = require("xmlparser");
 var xml      = "<category><name><![CDATA[风景名胜;公园广场;城市广场]]></name></category>";
 var json     = xml2json.parser( xml );
 console.log( json );
