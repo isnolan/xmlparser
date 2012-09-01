@@ -1,6 +1,6 @@
 {
   "name": "xmlparser",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "an xml2json package for nodejs",
   "main": "index.js",
   "directories": {
