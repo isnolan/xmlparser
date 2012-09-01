@@ -13,7 +13,7 @@ $ npm install XML2JSON
 使用：  
 <pre>
 var xml2json = require("XML2JSON");
-var xml      = "<xml><category><id>1</id><name><![CDATA[风景名胜;公园广场;城市广场]]></name><count>3</count></category></xml>";
+var xml      = "<category><name><![CDATA[风景名胜;公园广场;城市广场]]></name></category>";
 var json     = xml2json.parser( xml );
 console.log( json );
 </pre>
