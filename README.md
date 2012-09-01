@@ -7,7 +7,7 @@ XML2JSON 是一个基于NodeJs的封装组件，主要是用来解决XML转JSON�
 ### 使用方法：  
 安装：  
 <pre>
-$ npm install XML2JSON
+$ npm install xmlparser
 </pre>
 
 使用：  
