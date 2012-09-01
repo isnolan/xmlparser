@@ -1,0 +1,17 @@
+{
+  "name": "XML2JSON",
+  "description": "an xml2json package for nodejs",
+  "keywords": ['xml2json','XML2JSON','xml','json','2json','xml To json'],
+  "main":"./lib/xml2json.js",
+  "maintainers": [{
+    "name":"yhostc",
+	"email":"<yhostc@gmail.com>"
+  }],
+  "contributors": [{
+    "name":"yhostc",
+	"email":"<yhostc@gmail.com>"
+  }],
+  "bugs":"https://github.com/yhostc/XML2JSON/issues",
+  "repositories":"https://github.com/yhostc/XML2JSON.git",
+  "license": "BSD"
+}
